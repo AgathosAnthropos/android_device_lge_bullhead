@@ -20,8 +20,6 @@
 #include <unistd.h>
 #include <errno.h>
 
-#if 0
-
 #include "recovery_ui/device.h"
 #include "recovery_ui/screen_ui.h"
 
@@ -57,4 +55,3 @@ Device *make_device()
 {
     return new Nanohub_Device(new ScreenRecoveryUI);
 }
-#endif
